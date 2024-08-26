@@ -1,4 +1,10 @@
+import { Counter } from "./counter";
+
 function App() {
-  return <div>Learning Redux</div>;
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
 }
 export default App;
